@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "592936525253",
+    "firebase_url": "https://diseasedetection-33a3a.firebaseio.com",
+    "project_id": "diseasedetection-33a3a",
+    "storage_bucket": "diseasedetection-33a3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592936525253:android:1635daae461dfb27ebbfac",
+        "android_client_info": {
+          "package_name": "com.example.diseasedetectionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592936525253-1c39p4moqkp6qhc4p4ad3516mh97jpm2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.diseasedetectionapp",
+            "certificate_hash": "9e3efc4972ef3c9e9e441e6dca8cf209d2b35783"
+          }
+        },
+        {
+          "client_id": "592936525253-klp80uuf2cp3rk6o8ik6rtd53ir35ngl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC84xU9eaqK0yPXIzncPyk7wdCvtoARtDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592936525253-klp80uuf2cp3rk6o8ik6rtd53ir35ngl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

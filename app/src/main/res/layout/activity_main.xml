@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/medical_bg"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:paddingTop="20sp"
+            android:shadowColor="#0E0E0E"
+            android:id="@+id/heading"
+            android:text="Disease Detector"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="45sp" />
+    <com.shobhitpuri.custombuttons.GoogleSignInButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/google_sign_up"
+        app:isDarkTheme="true" />
+
+        <Button
+            android:id="@+id/google_signIn"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/heading"
+            android:layout_marginTop="20dp"
+            android:layout_height="60dp"
+            android:background="@drawable/round_btn"
+            android:drawableLeft="@drawable/google"
+            android:elevation="8dp"
+            android:text="Sign In with Google"
+            android:textColor="#fff" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/facebook"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/twitter_icon"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/google_plus"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+
+</RelativeLayout>
