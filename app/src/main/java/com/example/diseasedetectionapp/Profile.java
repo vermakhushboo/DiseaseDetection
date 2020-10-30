@@ -28,7 +28,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class Profile extends AppCompatActivity {
 
     TextView name, mail;
-    Button logout;
+    Button logout, chatbot;
     GoogleSignInAccount signInAccount;
 
     @Override
@@ -39,6 +39,7 @@ public class Profile extends AppCompatActivity {
         logout = findViewById(R.id.logout);
         name = findViewById(R.id.name);
         mail = findViewById(R.id.mail);
+        chatbot = findViewById(R.id.chatbot);
 
 
 
@@ -92,6 +93,14 @@ public class Profile extends AppCompatActivity {
 //                            }
 //                        });
 //
+            }
+        });
+
+        chatbot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Profile.this, Bot.class);
+                startActivity(intent);
             }
         });
     }
